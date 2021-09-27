@@ -2,11 +2,15 @@ html, body,
 .body{
   background: #e4e5ea;
   background-color: #e4e5ea;
+  padding-bottom: 10px;
 }
 
 .header{
   background: #ff690f;
   background-color: #ff690f;
+  img{
+    padding-top: 20px;
+  }
   
   
 }
@@ -15,7 +19,7 @@ html, body,
   background-color: #D65600;
 
   .columns{
-    padding-bottom: 0px;
+    padding-bottom: 10px;
     padding-right: 10px !important;
     padding-left: 10px !important;
     padding-top: 10px;
@@ -53,7 +57,7 @@ html, body,
       font-weight: 900;
       font-size: 30px;
       text-align: center;
-      padding: 20px;
+      padding: 10px;
     }
     p{
       color: white;
@@ -203,19 +207,148 @@ html, body,
           }
         }
       
-  
+    
 
+.footer-top{
+  background: rgb(44, 44, 44);
+  background-color: rgb(44, 44, 44);
+  color: white;
+  & > tbody > tr > th{
+    padding-bottom: 20px !important;
+    padding-top: 20px!important;
+    padding-left: 30px!important;
+    padding-right: 30px!important;
+  }
+  th{
+    padding-bottom: 0px;
+  }
 
-
-.footer{
-  background: black;
-  background-color: black;
-  .footer-container{
+    .call-to-action{
+      display: block;
+      font-size:14px;
+    }
+    .info{
+      display: block;
+      font-size: 12px;
+    }
+    .info-section > table > tbody > tr > th{
+      padding-left: 10px;
+      color: white;
+    }
+    .circle-logo{
+      display: block;
+      margin: 0 auto;
+    }
+    .store-logos{
+      img{
+        height: 40px;
+      }
+    }
+    }
+  .footer-social{
     background: black;
     background-color: black;
+    .logo-section{
+      padding-top: 20px;
+    }
+    .social-icons {
+    img {
+      width: 32px;
+      display: block;
+      margin: 0 auto;
+      padding-top: 20px;
+    }
+    th {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
-  
-  a{
-    color: red;
+  }
+  }
+  .footer-menu {
+  background: #14181c;
+  background-color: #14181c;
+  border-top: 1px solid #2d3e4b;
+  border-bottom: 1px solid #2d3e4b;
+  .columns {
+    padding-bottom: 5px;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+    padding-top: 5px;
+    a {
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 700;
+      .icons {
+        width: 20px;
+        margin-right: 5px;
+        display: inline-block;
+        vertical-align: bottom;
+      }
+    }
+    th {
+      text-align: center;
+    }
+    .menu-divider {
+      display: block;
+      height: 20px;
+      width: 1px;
+      background: #2d3e4b;
+      background-color: #2d3e4b;
+    }
   }
 }
+.footer-bottom {
+  background: #14181c;
+  background-color: #14181c;
+  & > tbody > tr > th {
+    padding-left: 30px !important;
+    padding-bottom: 30px;
+    padding-right: 30px !important;
+    padding-top: 30px !important;
+  }
+  .lower-links {
+    .link {
+      font-size: 12px !important;
+      color: #ffffff !important;
+      margin-right: 10px;
+      &:nth-child(4) {
+        margin-right: 0;
+      }
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+  .privacy {
+    th {
+      padding-bottom: 0;
+    }
+    & > tbody > tr > th > table > tbody > tr > th {
+      padding-bottom: 30px;
+    }
+    p {
+      color: #a0a1a3;
+      font-size: 10px;
+      padding-bottom: 30px;
+    }
+  }
+  .copyright,
+  .address {
+    th {
+      padding-bottom: 0;
+    }
+    .columns {
+      p {
+        color: #d0d0d1;
+        font-size: 13px;
+        font-weight: 400;
+        padding-bottom: 0px;
+      }
+    }
+  }
+}
+
+    
+  
+
+
